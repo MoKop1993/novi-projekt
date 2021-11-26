@@ -1,0 +1,24 @@
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 700px;
+}
+
+.area1 {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.area2 {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+@media screen and (min-width: 768px) {
+}
