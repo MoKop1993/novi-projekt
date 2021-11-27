@@ -1,7 +1,7 @@
-#grid {
+.izazov {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 700px;
+  grid-template-rows: 1fr 1fr;
+  height: 500px;
 }
 
 .area1 {
@@ -18,4 +18,11 @@
   justify-content: center;
   align-items: center;
   color: aliceblue;
+}
+
+@media screen and (min-width: 786px) {
+  .izazov {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
